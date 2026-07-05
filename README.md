@@ -16,7 +16,6 @@ Respective information about preliminary installations for the replication will 
 NOTE: In order to run the scrapers, you will first need to shift into an environment. Use the following code to do so:
 
 ```
-
 cd ~/court_scraper
 python3 -m venv venv
 source venv/bin/activate
