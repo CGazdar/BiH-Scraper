@@ -11,27 +11,4 @@ The second model is the real one (_Second Scraper_), which contains the source c
 
 There is one issue with the final model, though: the last column, which is labelled _verdict_result_, doesn't actually give the verdict, but the current model just adds _"there is no information about the verdict."_ This is much harder to obtain and (likely) requires a PDF scraper to get the verdict. Additionally, many of the PDFs on the BiH site are not live but are rather scans, meaning whatever model you use will also need some sort of AI or other tools to read scanned text. I'll make changes to the model when I can find a definitive way to add the verdict. Currently, the closest thing you can get to a current verdict is to look under the _"Execution"_ tab, but this is not necessarily the verdict, as trials are still ongoing and, in other cases, are not made publicly available. It could be a helpful column to add, but for the time being, final verdicts are not going to be part of this CSV.
 
-## Information about preliminary installations for the replication:
-
-"""
-### Sud BiH (sudbih.gov.ba) war-crimes case scraper
-================================================
-
-Scrapes the public case-law listing (Court/Practice) and each individual
-case page (Court/Case/{id}) into a single CSV, with one row for each case.
-
-SETUP
------
-    pip install playwright beautifulsoup4 pandas
-    playwright install chromium
-
-RUN
----
-    python sudbih_scraper.py --department 1
-    python sudbih_scraper.py --department 1 --resume     
-    python sudbih_scraper.py --department 1 --headful    
-
-OUTPUT
-------
-    sudbih_cases_department_{N}.csv
-"""
+Respective information about preliminary installations for the replication will be within the .py code of each model.
