@@ -14,7 +14,7 @@ There is one issue with the final model, though: the last column, which is label
 ## Information about preliminary installations for the replication:
 
 """
-Sud BiH (sudbih.gov.ba) war-crimes case scraper
+### Sud BiH (sudbih.gov.ba) war-crimes case scraper
 ================================================
 
 Scrapes the public case-law listing (Court/Practice) and each individual
