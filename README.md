@@ -1,8 +1,8 @@
-### BiH-Scraper
+# BiH-Scraper
 
 ## A scraper for around 550 domestic trials in Bosnia and Herzegovina relating to crimes committed during the Yugoslav wars. 
 
-# Authors: **Cyrus Gazdar** _(Simon Fraser University)_, **Adham Bakr** _(On Leave)_
+### Authors: **Cyrus Gazdar** _(Simon Fraser University)_, **Adham Bakr** _(On Leave)_
 
 
 The repository contains 2 models. The first is an AI scraper that didn't get off the ground properly. It's hosted by Ollama and got through the first step of scraping case IDs, but failed to obtain the remaining metadata from the source site. There probably is a way to get this model to work, but I am not paid enough to do it. It is all reproducible via Python, so if you want to try and get it to work, it's all there for you.
