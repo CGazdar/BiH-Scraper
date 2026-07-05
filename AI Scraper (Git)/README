@@ -1,0 +1,8 @@
+Keep in mind that for this model, you need to manually include a bunch of folders to keep the data. Bash the following into your project wd via terminal/CMD:
+
+```
+mkdir data
+mkdir data/cases_html
+mkdir data/json
+mkdir logs
+```
