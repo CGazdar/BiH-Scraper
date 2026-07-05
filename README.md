@@ -14,9 +14,9 @@ There is one issue with the final model, though: the last column, which is label
 Respective information about preliminary installations for the replication will be within the .py code of each model.
 
 NOTE: In order to run the scrapers, you will first need to shift into an environment. Use the following code to do so:
-'''
+```
 
 cd ~/court_scraper
 python3 -m venv venv
 source venv/bin/activate
-'''
+```
